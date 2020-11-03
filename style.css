@@ -6,6 +6,11 @@
 /*Centers links after navbar toggler button is clicked.*/
 .nav-item {
     text-align: center;
+    font-family: 'IBM Plex Serif', serif; 
+}
+
+.h1 {
+    font-family: 'IBM Plex Serif', serif;
 }
 
 
