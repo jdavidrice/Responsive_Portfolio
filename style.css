@@ -1,0 +1,13 @@
+/*Moves links in navbar to the right. Could place "ml-auto" in first ul tag for the same effect.*/
+.navbar-nav {
+    margin-left: auto;
+}
+
+/*Centers links after navbar toggler button is clicked.*/
+.nav-item {
+    text-align: center;
+}
+
+
+
+
