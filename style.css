@@ -4,24 +4,12 @@
 }
 
 /*Centers links after navbar toggler button is clicked.*/
-/*
-.nav-item {
-    text-align: center;
-    font-family: 'IBM Plex Serif', serif; 
-}
-*/
-
 .nav-item {
     text-align: center;
     font-family: 'Noto Serif JP', serif; 
 }
 
-/*
-.h1 {
-    font-family: 'IBM Plex Serif', serif;
-}
-*/
-
+/*Changes default font in h1*/
 .h1 {
     font-family: 'Noto Serif JP', serif;
 }
