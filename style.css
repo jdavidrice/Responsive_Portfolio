@@ -1,39 +1,42 @@
+/* Provides background image to entire page. */
 body {
-    background-image: linear-gradient(#2f5e8d, #f5f5f5);
+    background-image: url("background.jpg");
 }
 
-/*Moves links in navbar to the right. Could place "ml-auto" in first ul tag for the same effect.*/
+/* Moves links in navbar to the right. Could place "ml-auto" in first ul tag for the same effect. */
 .navbar-nav {
     margin-left: auto;
 }
 
-/*Centers links after navbar toggler button is clicked and changes font.*/
+/* Centers links after navbar toggler button is clicked and changes font. */
 .nav-item {
     text-align: center;
     font-family: 'Noto Serif JP', serif;
-    font-weight: bolder; 
+    font-weight: bold; 
 }
 
-/*Changes default font in h1*/
+/* Changes font in h1. */
 .h1 {
     font-family: 'Noto Serif JP', serif;
 }
 
+/* Changes font and centers "About Me". */
 .page-header {
     font-family: 'Noto Serif JP', serif;
+    text-align: center;
 }
 
+/* Styles and places "About Me" box. */
 .container {
-    border: 2px;
+    /*border: 2px;
     border-style: solid;
-    border-color: #d3d3d3;
+    border-color: #d3d3d3;*/
     border-radius: 10px;
     margin-top: 43px;
+    background-image: linear-gradient(#6A6C6E, #f5f5f5);
 }
 
-img {
-    float: left;
-  }
+
 
 
 
