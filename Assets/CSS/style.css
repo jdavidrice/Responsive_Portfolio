@@ -107,3 +107,7 @@ footer.portfolio {
     height: 350px;
     margin-top: 10px;
   }
+  #linkedinLink {
+      background-color: white;
+      /* width: 80px; */
+  }
