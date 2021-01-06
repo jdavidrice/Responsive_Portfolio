@@ -1,10 +1,10 @@
 * {
-    background-color: rebeccapurple;
+    background-color: rgb(42, 33, 57);
 }
 
 body {
     /* background-image: url("background_web.jpg"); */
-    background-color: rebeccapurple;
+    background-color: rgb(42, 33, 57);
     /* background-color: rgb(92, 92, 92); */
 }
 /* Styles all paragraphs. */
@@ -46,6 +46,7 @@ footer.portfolio {
   }
   form {
       text-align: center;
+      color: whitesmoke
   }
 /* Moves links in navbar to the right. Could place "ml-auto" in first ul tag for the same effect.*/ 
 .navbar-nav {
@@ -93,6 +94,16 @@ footer.portfolio {
     width: auto;
     height: auto;
 }
+.btn-primary {
+    background: rebeccapurple;
+}
+#contactSubmit {
+    margin: 30px;
+}
+.form {
+    width: 75%;
+    margin: auto;
+}
 /* Formats each screenshot/link on "Portfolio" page. */
 .flex-item {
     padding: 5px;
@@ -105,12 +116,15 @@ footer.portfolio {
     /* flex-wrap: wrap; */
     flex-flow: row wrap;
     justify-content: space-around;
+    margin: 50px 10px
 }
 .aboutLinks.flex-wrapped {
     display: grid;
     place-items: center;
-    flex: 1 1 10px;
+    flex: 1 1 80px;
     /* flex: 0 1 50px; */
+    width: auto;
+    height: auto;
     margin: 5px;
 }
 .physicalAddress {
@@ -119,5 +133,11 @@ footer.portfolio {
 @media only screen and (max-width: 600px) {
     #contactContainer {
     margin-top: 5px;
+    }
+    .aboutLinks.flex-wrapper {
+        margin: 10px;
+    }
+    .form {
+        width: 100%;
     }
 }
