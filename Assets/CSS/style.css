@@ -1,6 +1,11 @@
+* {
+    background-color: rebeccapurple;
+}
+
 body {
     /* background-image: url("background_web.jpg"); */
-    background-color: rgb(92, 92, 92);
+    background-color: rebeccapurple;
+    /* background-color: rgb(92, 92, 92); */
 }
 /* Styles all paragraphs. */
 p {
@@ -66,7 +71,7 @@ footer.portfolio {
 /* Changes and styles "About Me" font. */
 .page-header h1 {
     /* font-family: 'Noto Serif JP', serif; */
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     color: whitesmoke;
     padding-top: 8px;
@@ -97,11 +102,16 @@ footer.portfolio {
   }
 .aboutLinks.flex-wrapper {
     display: flex;
+    /* flex-wrap: wrap; */
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .aboutLinks.flex-wrapped {
-    padding: 20px;
+    display: grid;
+    place-items: center;
+    flex: 1 1 10px;
+    /* flex: 0 1 50px; */
+    margin: 5px;
 }
 .physicalAddress {
     text-align: center;
