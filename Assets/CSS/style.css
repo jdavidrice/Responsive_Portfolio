@@ -1,10 +1,9 @@
 * {
-    background-color: rgb(42, 33, 57);
+    background-color: rgb(42,33,57);
 }
-
 body {
     /* background-image: url("background_web.jpg"); */
-    background-color: rgb(42, 33, 57);
+    background-color: rgb(42,33,57);
     /* background-color: rgb(92, 92, 92); */
 }
 /* Styles all paragraphs. */
@@ -96,6 +95,7 @@ footer.portfolio {
 }
 .btn-primary {
     background: rebeccapurple;
+    border-color: rgb(232,128,57)
 }
 #contactSubmit {
     margin: 30px;
@@ -139,5 +139,13 @@ footer.portfolio {
     }
     .form {
         width: 100%;
+    }
+    img.photo {
+        width: 150px;
+        height: 150px;
+    }
+    /* img.mr-3 {
+        width: 200px;
+        height: 200px; */
     }
 }
