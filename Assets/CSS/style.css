@@ -11,6 +11,7 @@ body {
 p {
     /* font-family: 'Noto Serif JP', serif; */
     font-weight: 200;
+    font-size: 18px;
     text-align: left;
     color:whitesmoke;
     padding-bottom: 15px;
@@ -108,6 +109,6 @@ footer.portfolio {
     margin-top: 10px;
   }
   #linkedinLink {
-      background-color: white;
+      /* background-color: white; */
       /* width: 80px; */
   }
