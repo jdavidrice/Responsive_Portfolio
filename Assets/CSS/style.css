@@ -67,6 +67,8 @@ footer.portfolio {
 /* Styles gray box for main content on each page. */
 .container {
     margin-top: 43px;
+    display: flex;
+    flex-direction: column;
 }
 /* Changes and styles "About Me" font. */
 .page-header h1 {
@@ -110,6 +112,7 @@ footer.portfolio {
     width: 350px;
     height: 350px;
     margin-top: 10px;
+    margin: auto;
   }
 .aboutLinks.flex-wrapper {
     display: flex;
