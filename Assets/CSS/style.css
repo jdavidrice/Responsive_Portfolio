@@ -1,11 +1,20 @@
 * {
-    background-color: rgb(42,33,57);
+    /* background-color: rgb(42,33,57); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
-    /* background-image: url("background_web.jpg"); */
-    background-color: rgb(42,33,57);
-    /* background-color: rgb(92, 92, 92); */
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top#65dfc9, #6cdbeb);
+
+
 }
+/* body {
+    background-image: url("background_web.jpg"); */
+    /* background-color: rgb(42,33,57); */
+    /* background-color: rgb(92, 92, 92);
+} */
 /* Styles all paragraphs. */
 p {
     /* font-family: 'Noto Serif JP', serif; */
